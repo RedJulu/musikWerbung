@@ -1,0 +1,36 @@
+/* Allgemeine Stile für den Header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Stile für das Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Stile für die Navigationsleiste */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
